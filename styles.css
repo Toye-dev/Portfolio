@@ -100,6 +100,18 @@ h2 {
   line-height: 0px;
   text-align: center;
   }
+
+  .firstSub {
+    margin-top: -35px;
+    margin-left: 195px;
+    font-size: 19px;
+  }
+
+  .secondSub {
+    margin-top: -35px;
+    margin-left: 295px;
+    font-size: 17px;
+  }
   
   .underline {
   width: 590px;
