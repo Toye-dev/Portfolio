@@ -115,15 +115,21 @@ p {
   color: hsl(14, 60%, 69%);
 }
 
+.sub {
+  font-size: 22px;
+  margin-bottom: -38px;
+}
+
 .firstSub {
-  margin-top: -35px;
-  margin-left: 195px;
+  padding-top: -50px;
+  padding-left: 220px;
+  margin-bottom: -30px;
   font-size: 19px;
+ 
 }
 
 .secondSub {
-  margin-top: -35px;
-  margin-left: 295px;
+  padding-left: 295px;
   font-size: 17px;
 }
 
