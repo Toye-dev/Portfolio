@@ -99,32 +99,32 @@ h2 {
   padding-top: 110px;
   line-height: 0px;
   text-align: center;
-  }
-
-  .firstSub {
-    margin-top: -35px;
-    margin-left: 195px;
-    font-size: 19px;
-  }
-
-  .secondSub {
-    margin-top: -35px;
-    margin-left: 295px;
-    font-size: 17px;
-  }
+}
   
-  .underline {
-  width: 590px;
-  border-bottom: 2px solid rgb(198, 203, 205);
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 25px;
+.underline {
+width: 590px;
+border-bottom: 2px solid rgb(198, 203, 205);
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 25px;
 }
 
 p {
   font-size: 22px;
-   padding-bottom: 30px;
+  padding-bottom: 30px;
   color: hsl(14, 60%, 69%);
+}
+
+.firstSub {
+  margin-top: -35px;
+  margin-left: 195px;
+  font-size: 19px;
+}
+
+.secondSub {
+  margin-top: -35px;
+  margin-left: 295px;
+  font-size: 17px;
 }
 
 .second-div {
