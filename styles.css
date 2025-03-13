@@ -337,7 +337,7 @@ button:hover {
 .social-icon a {
   text-decoration: none;
   color: hsl(197, 7%, 79%);
-  text-shadow: 2px 4px 2px hsl(207 15% 1%);
+  text-shadow: 2px 4px 1px hsl(207 15% 1%);
   position: relative;
   top: 0;
   transition: top .5s ease;
