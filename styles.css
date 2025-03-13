@@ -390,12 +390,16 @@ footer p {
   .hamburger {
     display: block;
     margin-right: 10px;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .hamburger:hover {
     font-size: 19px;
     transition: font-size 5000ms ease-in-out;
+  }
+
+  #navbar ul li:hover {
+    background-color:	hsla(153, 8%, 21%, 0.89);
   }
 
   .nav-links {
@@ -404,7 +408,7 @@ footer p {
     position: absolute;
     top: 48px;
     right: 5px;
-    background: #44444496;
+    background: #232b2a96;
     border-radius: 3px;
     width: 25px;
     max-height: 0px;
@@ -488,7 +492,7 @@ footer p {
   }
 
   .underline {
-    width: 217px;
+    width: 237px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -549,8 +553,10 @@ footer p {
   }
 
   img {
+    min-width: 0px;
     max-width: 340px;
     aspect-ratio: 5/4;
+    height: calc(340px * 4 / 5);
     object-fit: cover;
     border-radius: 5px;
     z-index: 4;
