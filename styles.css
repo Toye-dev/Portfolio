@@ -490,9 +490,9 @@ footer p {
   }
 
   .underline {
-    width: 237px;
+    max-width: 337px;
     position: absolute;
-    left: 50%;
+    left: 40.5%;
     transform: translateX(-50%);
     bottom: -98px;
   }
