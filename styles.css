@@ -100,31 +100,25 @@ h2 {
 .aContainer {
   position: relative;
   text-align: center;
-  margin-bottom: 80px;
   width: 800px;
   display: block;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.underlined-heading {
-  font-size: 28px;
-}
-
 .underline {
   border-bottom: 1px solid rgb(198, 203, 205);
-  width: 440px;
+  width: 1250px;
   position: absolute;
-  left: 50%;
-  bottom: -29px;
-  transform: translateX(-50%);
+  right: 178px;
+  bottom: -79px;
 }
 
 .underline-sub {
   font-size: 18px;
   position: absolute;
-  right: 149px;
-  bottom: -103px;
+  right: 119px;
+  bottom: -128px;
   transform: translateX(-50%);
   font-style: italic;
 }
@@ -164,10 +158,10 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 15px;
+  padding-top: 118px;
   gap: 50px;
   flex-wrap: wrap;
-  max-width: 1200px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -241,7 +235,7 @@ a::after {
   
 }
 
-button {
+.btn {
   display: block;
   font-family: raleway;
   width: 150px;
@@ -254,23 +248,25 @@ button {
   color: hsl(190, 7%, 85%);
   margin-top: 60px;
   margin-bottom: 65px;
-  border: none;
   position: relative;
   transition: background-color 0.3s ease;
+  text-align: center;
+  line-height: 55px; 
+  text-decoration: none;
 }
 
-button .arrow {
+.btn .arrow {
   display: inline-block;
   transition: transform .7s ease;
 }
 
-button:hover .arrow {
+.btn:hover .arrow {
   transform: translateX(5px);
   color: hsl(190, 50%, 64%);
 }
 
-button:hover {
-  background-color: hsl(207 12% 17%);
+.btn:hover {
+  background-color: hsl(207, 12%, 17%);
 }
 
 
@@ -280,6 +276,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: 90vh; 
+  width: 96%;
   background: linear-gradient(
     45deg,
     #292e32 2%,
@@ -308,7 +305,7 @@ button:hover {
 }
 
 #profile-div p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 20px;
   margin-top: -25px;
   text-align: center;
@@ -437,7 +434,7 @@ footer p {
   }
 
   #welcome-section {
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     background: linear-gradient(
       45deg,
@@ -496,13 +493,13 @@ footer p {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -6px;
+    bottom: -98px;
   }
 
   .underline-sub {
     font-size: 11px;
-    right: 120px;
-    bottom: -64px;
+    right: 95px;
+    bottom: -138px;
     font-style: italic;
     position: absolute;
   }
@@ -519,25 +516,6 @@ footer p {
     left: 50%;
     transform: translateX(-50%);
   }
-  
-  /*
-  
-  .underline {
-    border-bottom: 1px solid rgb(198, 203, 205);
-    width: 440px;
-    position: absolute;
-    left: 50%;
-    bottom: -29px;
-    transform: translateX(-50%);
-  }
-  
-  .underline-sub {
-    font-size: 18px;
-    position: absolute;
-    right: 149px;
-    bottom: -103px;
-    transform: translateX(-50%);
-  } */
 
   h2 {
     font-size: 35px;
@@ -656,7 +634,5 @@ footer p {
   .project-tile {
     margin-top: 30px;
   }
-
-  /* color: hsla(190, 50%, 64%, 0.808);*/
 
 }
